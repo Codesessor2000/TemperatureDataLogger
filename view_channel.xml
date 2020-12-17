@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/thermo">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="154dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="292dp"
+                android:text="Channel_Number"
+                android:textAlignment="textStart"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/Channelname"
+                app:layout_constraintTop_toBottomOf="@+id/Channelname" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="155dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="160dp"
+                android:text="Channel_Address:"
+                android:textAlignment="textStart"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/Channelname"
+                app:layout_constraintTop_toBottomOf="@+id/Channelname" />
+
+            <EditText
+                android:id="@+id/editTextTextChannelName3"
+                android:layout_width="344dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="72dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#0E0E0E"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextChannelName2"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextChannelName2" />
+
+            <EditText
+                android:id="@+id/editTextTextChannelName2"
+                android:layout_width="344dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="72dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#0E0E0E"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextChannelName"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextChannelName" />
+
+            <TextView
+                android:id="@+id/Channelname"
+                android:layout_width="344dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text="Channel Details"
+                android:textColor="#0E0E0E"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextTextChannelName"
+                android:layout_width="344dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="64dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#0E0E0E"
+                app:layout_constraintStart_toStartOf="@+id/Channelname"
+                app:layout_constraintTop_toBottomOf="@+id/Channelname" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="125dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="28dp"
+                android:text="Channel_Name:"
+                android:textAlignment="viewStart"
+                android:textColor="#0E0E0E"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/Channelname"
+                app:layout_constraintTop_toBottomOf="@+id/Channelname" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="244dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="472dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/sun" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="103dp"
+                android:layout_height="95dp"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="52dp"
+                android:background="#F4EFEF"
+                android:backgroundTint="#FFFFFF"
+                android:clickable="false"
+                android:hapticFeedbackEnabled="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:textColor="#070606"
+                app:iconTint="#F6F1F1"
+                app:layout_constraintStart_toStartOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="504dp"
+                android:layout_marginEnd="56dp"
+                android:backgroundTint="#100C0C"
+                android:text="Delete "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thermo">
+
+    <EditText
+        android:id="@+id/editTextTextChannelName3"
+        android:layout_width="344dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Enter Channel Number"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextChannelName2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextChannelName2" />
+
+    <EditText
+        android:id="@+id/editTextTextChannelName2"
+        android:layout_width="344dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Channel Address/Location"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextChannelName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextChannelName" />
+
+    <TextView
+        android:id="@+id/Channelname"
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Create New Channel"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextChannelName"
+        android:layout_width="344dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Channel Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/Channelname"
+        app:layout_constraintTop_toBottomOf="@+id/Channelname" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#CDC2C2"
+        android:text="Launch New Channel"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextChannelName3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextChannelName3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
